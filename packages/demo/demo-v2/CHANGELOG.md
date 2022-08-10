@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.15.0 (2022-08-10)
+
+
+### Bug Fixes
+
+* **lib:** 添加严格模式配置，更精准计算anyOf 默认值 ([2cd65bb](https://github.com/internet-com/vue-json-schema-form/commit/2cd65bb5f275a021f1cc368e4c63387163c94d57)), closes [#157](https://github.com/internet-com/vue-json-schema-form/issues/157)
+* **schema-generator:** 修复array 下object排序问题 ([55dc50e](https://github.com/internet-com/vue-json-schema-form/commit/55dc50e128417a67e9d186d3fcd6e2340d713144))
+* **vue2-iview3:** 修复iveiws组件透透传slot失效 ([f86ec5f](https://github.com/internet-com/vue-json-schema-form/commit/f86ec5f77f98a40ee31989cf6e554504059b910d))
+
+
+### Features
+
+* **cdn:** 替换cdn链接 ([245fd2c](https://github.com/internet-com/vue-json-schema-form/commit/245fd2c0e92d5bb4de1218a9438e64aff37551c3))
+* **core:** widget 节点直接配置onChange ([2d2264b](https://github.com/internet-com/vue-json-schema-form/commit/2d2264b004c3b6586e225c563bf03ca52fc5e53a))
+* **lib:** 优化样式 ([e53291b](https://github.com/internet-com/vue-json-schema-form/commit/e53291b8395fdceb971f15f72c9e809cdee8ec7e))
+* **lib:** 支持配置 slots ([27f1501](https://github.com/internet-com/vue-json-schema-form/commit/27f1501eda01eabd4a723656be56904e9cb0f069)), closes [#45](https://github.com/internet-com/vue-json-schema-form/issues/45)
+* **lib:** 添加 $$uiFormRef 属性，可在mounted 之直接访问子组件实例 ([08c6c4f](https://github.com/internet-com/vue-json-schema-form/commit/08c6c4f2d247b4881e88fa380de8980c31cc5cd7)), closes [#127](https://github.com/internet-com/vue-json-schema-form/issues/127)
+* **lib:** 添加 defaultSelectFirstOption 配置 ([bf17a61](https://github.com/internet-com/vue-json-schema-form/commit/bf17a616fc000194ddda1259a708b9c52571d3fd)), closes [#171](https://github.com/internet-com/vue-json-schema-form/issues/171)
+* **lib:** 添加 fallback-label 参数 ([cd2d8c3](https://github.com/internet-com/vue-json-schema-form/commit/cd2d8c3ed72b9bc03e44eb5b86eb1b18fe67c34c)), closes [#45](https://github.com/internet-com/vue-json-schema-form/issues/45)
+* **lib:** 调整 widget onChange prop参数格式，添加 formData参数 ([4c441fc](https://github.com/internet-com/vue-json-schema-form/commit/4c441fce239ade40b10a42bf361c3ee920a044ed)), closes [#45](https://github.com/internet-com/vue-json-schema-form/issues/45)
+* **vue2:** vue2 添加 widgetListeners 配置 ([50348c2](https://github.com/internet-com/vue-json-schema-form/commit/50348c27e72813ea16fdcfcea46e6450ccf06018)), closes [#45](https://github.com/internet-com/vue-json-schema-form/issues/45)
+* **vue2-iview3:** 适配 iview3 ([0120d2b](https://github.com/internet-com/vue-json-schema-form/commit/0120d2b9a265cf0bffee099c2d4974c883c08a25)), closes [#27](https://github.com/internet-com/vue-json-schema-form/issues/27)
+* **vue3-ant:** 更新初始化 ([71a2810](https://github.com/internet-com/vue-json-schema-form/commit/71a281045af11f215333050396aa546dd5e78b88)), closes [#27](https://github.com/internet-com/vue-json-schema-form/issues/27) [#27](https://github.com/internet-com/vue-json-schema-form/issues/27) [#27](https://github.com/internet-com/vue-json-schema-form/issues/27) [#40](https://github.com/internet-com/vue-json-schema-form/issues/40)
+* **vue3-core:** 完成 @lljj/vue3-form-element package，更新文档 ([a4d65db](https://github.com/internet-com/vue-json-schema-form/commit/a4d65db6c58f96e6afe6e31068c09e914e6b6579)), closes [#27](https://github.com/internet-com/vue-json-schema-form/issues/27)
+* 适配 iview3 ([d4ee166](https://github.com/internet-com/vue-json-schema-form/commit/d4ee166a7dd71bb9a840525f4eb15c4fdc97f11d))
+
+
+
+
+
 # [1.14.0](https://github.com/lljj-x/vue-json-schema-form/compare/v1.13.1...v1.14.0) (2022-08-07)
 
 **Note:** Version bump only for package demo

@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.15.0 (2022-08-10)
+
+
+### Bug Fixes
+
+* **lib:** 添加严格模式配置，更精准计算anyOf 默认值 ([10cdc08](https://github.com/lljj-x/vue-json-schema-form/commit/10cdc089087d83d8fe08e1fd379b7a1aaad0cd5d)), closes [#152](https://github.com/lljj-x/vue-json-schema-form/issues/152)
+* **ts:** 修复类型定义文件 ([18a7058](https://github.com/lljj-x/vue-json-schema-form/commit/18a70581d4471055a9d1c78eef6e012f37ddd8cb))
+
+
+### Features
+
+* **lib:** 添加 defaultSelectFirstOption 配置 ([bf17a61](https://github.com/lljj-x/vue-json-schema-form/commit/bf17a616fc000194ddda1259a708b9c52571d3fd)), closes [#171](https://github.com/lljj-x/vue-json-schema-form/issues/171)
+* **lib:** 添加vue3 naiveui支持 ([a159c78](https://github.com/lljj-x/vue-json-schema-form/commit/a159c78eb1a9156aa042a0cf82a350c46e035dcc)), closes [#152](https://github.com/lljj-x/vue-json-schema-form/issues/152)
+
+
+
+
+
 # [1.14.0](https://github.com/lljj-x/vue-json-schema-form/compare/v1.13.1...v1.14.0) (2022-08-07)
 
 **Note:** Version bump only for package @lljj/vue3-form-naive

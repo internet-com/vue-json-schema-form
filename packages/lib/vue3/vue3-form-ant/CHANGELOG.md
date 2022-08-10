@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.15.0 (2022-08-10)
+
+
+### Bug Fixes
+
+* **ant:** 修复vue3 ant popover 数据无法响应式 ([3e473ef](https://github.com/lljj-x/vue-json-schema-form/commit/3e473efe7ada39762d1bb79bb8896a590fdcdb89)), closes [#121](https://github.com/lljj-x/vue-json-schema-form/issues/121)
+* **lib:** allOf merge 相同类型直接使用左边 ([c0bd0cd](https://github.com/lljj-x/vue-json-schema-form/commit/c0bd0cde9f15b4ca928fec84b4831a5cb459aa43)), closes [#116](https://github.com/lljj-x/vue-json-schema-form/issues/116)
+* **lib:** 修复 d.ts 申明文件错误 ([860c3b4](https://github.com/lljj-x/vue-json-schema-form/commit/860c3b42a38ac3e76b2e16c3d74a45c7cd95dfa1))
+* **lib:** 修复antd表单不实时校验 ([5452491](https://github.com/lljj-x/vue-json-schema-form/commit/5452491354acf9884cd37691e766c0007c82f88a))
+* **lib:** 修复anyOf下多级对象初始值计算错误问题 ([6dd9780](https://github.com/lljj-x/vue-json-schema-form/commit/6dd97804573aa55001c2715da4a6ffcc5ee897b9)), closes [#57](https://github.com/lljj-x/vue-json-schema-form/issues/57)
+* **lib:** 修复inline 布局样式问题 ([65a7143](https://github.com/lljj-x/vue-json-schema-form/commit/65a7143fc19105f9096afc24a25107c0ef27ac5f)), closes [#122](https://github.com/lljj-x/vue-json-schema-form/issues/122)
+* **lib:** 添加严格模式配置，更精准计算anyOf 默认值 ([10cdc08](https://github.com/lljj-x/vue-json-schema-form/commit/10cdc089087d83d8fe08e1fd379b7a1aaad0cd5d)), closes [#152](https://github.com/lljj-x/vue-json-schema-form/issues/152)
+* **ts:** 修复类型定义文件 ([18a7058](https://github.com/lljj-x/vue-json-schema-form/commit/18a70581d4471055a9d1c78eef6e012f37ddd8cb))
+* **vue3 antd:** 修复color format选择颜色 ([378c2e1](https://github.com/lljj-x/vue-json-schema-form/commit/378c2e1aa6767553998cacf52321a6d5b5bee84e))
+* **vue3-antd:** 修复form label 双冒号问题 ([5b4f16c](https://github.com/lljj-x/vue-json-schema-form/commit/5b4f16c3c1a4f4b784c2fd5c1fbe7eec40cf8d7b)), closes [#46](https://github.com/lljj-x/vue-json-schema-form/issues/46)
+
+
+### Features
+
+* **core:** widget 节点直接配置onChange ([2d2264b](https://github.com/lljj-x/vue-json-schema-form/commit/2d2264b004c3b6586e225c563bf03ca52fc5e53a))
+* **lib:** form-mounted event 添加formData 参数 ([c54202c](https://github.com/lljj-x/vue-json-schema-form/commit/c54202c27304add9636a7062c05c80c60fc200a6))
+* **lib:** 优化anyOf切换选项值的复用，修复vue3 anyOf无法切换选项 ([6159160](https://github.com/lljj-x/vue-json-schema-form/commit/6159160d1727165e706343187aca129360dc011f))
+* **lib:** 优化样式 ([e53291b](https://github.com/lljj-x/vue-json-schema-form/commit/e53291b8395fdceb971f15f72c9e809cdee8ec7e))
+* **lib:** 支持配置 slots ([27f1501](https://github.com/lljj-x/vue-json-schema-form/commit/27f1501eda01eabd4a723656be56904e9cb0f069)), closes [#45](https://github.com/lljj-x/vue-json-schema-form/issues/45)
+* **lib:** 添加 $$uiFormRef 属性，可在mounted 之直接访问子组件实例 ([08c6c4f](https://github.com/lljj-x/vue-json-schema-form/commit/08c6c4f2d247b4881e88fa380de8980c31cc5cd7)), closes [#127](https://github.com/lljj-x/vue-json-schema-form/issues/127)
+* **lib:** 添加 defaultSelectFirstOption 配置 ([bf17a61](https://github.com/lljj-x/vue-json-schema-form/commit/bf17a616fc000194ddda1259a708b9c52571d3fd)), closes [#171](https://github.com/lljj-x/vue-json-schema-form/issues/171)
+* **lib:** 添加 fallback-label 参数 ([cd2d8c3](https://github.com/lljj-x/vue-json-schema-form/commit/cd2d8c3ed72b9bc03e44eb5b86eb1b18fe67c34c)), closes [#45](https://github.com/lljj-x/vue-json-schema-form/issues/45)
+* **lib:** 调整 widget onChange prop参数格式，添加 formData参数 ([4c441fc](https://github.com/lljj-x/vue-json-schema-form/commit/4c441fce239ade40b10a42bf361c3ee920a044ed)), closes [#45](https://github.com/lljj-x/vue-json-schema-form/issues/45)
+* **vue3-ant:** 更新初始化 ([71a2810](https://github.com/lljj-x/vue-json-schema-form/commit/71a281045af11f215333050396aa546dd5e78b88)), closes [#27](https://github.com/lljj-x/vue-json-schema-form/issues/27) [#27](https://github.com/lljj-x/vue-json-schema-form/issues/27) [#27](https://github.com/lljj-x/vue-json-schema-form/issues/27) [#40](https://github.com/lljj-x/vue-json-schema-form/issues/40)
+
+
+
+
+
 # [1.14.0](https://github.com/lljj-x/vue-json-schema-form/compare/v1.13.1...v1.14.0) (2022-08-07)
 
 **Note:** Version bump only for package @lljj/vue3-form-ant
